@@ -1,0 +1,20 @@
+﻿<body>
+Text <br>
+<input id="input1"> </input>
+<input type="button" value="Code"
+onclick="f()"/> <br>
+<input id="input2"/> 
+<input type="button" value="Decode"
+onclick="f1()"/> <br>
+<input id="input3"/> <br> 
+<br>
+<script type="text/javascript">
+function f() {		
+		input2.value = input1.value*	
+}
+function f1() {
+		//alert(input.value)
+		input3.value = input2.value
+}
+</script>
+</body>
